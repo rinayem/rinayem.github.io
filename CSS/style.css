@@ -1,3 +1,111 @@
 body{
     font-family: 'Open Sans', sans-serif;
 }
+
+.banner-container{
+ background-image: url(/Image/Background2.jpg);
+ background-repeat: no-repeat;
+ background-position: center;
+ 
+}
+.rounded-circle{
+    background-color: white;
+    width: 350px;
+    height: 350px;
+    border-radius: 100px;
+}
+
+.banner-column{
+    background-color: #0A406E;
+}
+.navbar-container{
+    background-color: #0A406E;
+    font-weight: bold;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+.about-container{
+    background-color: rgb(4, 43, 30);
+}
+.education-container{
+    background-color: rgb(108, 226, 216);
+}
+.education-color{
+    color: black;
+    font-weight: bolder;
+}
+.project-color{
+    color: white;
+    font-weight: bolder;
+}
+.gallery-color{
+    color: white;
+    font-weight: bolder;
+}
+.portfolio-color{
+    color: white;
+    font-weight: bolder;
+}
+
+.circle{
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+.card-body{
+    background-color: rgb(142, 226, 196);
+
+}
+.project-container{
+    background-color: rgb(28, 109, 230);
+}
+.gallery-container{
+    background-color: rgb(34, 49, 43);
+}
+.portfolio-container{
+    background-color: rgb(102, 103, 104);
+}
+.form-container{
+    background-color: rgb(28, 32, 36);
+}
+.inner-form{
+    background-color: rgb(52, 55, 58);
+}
+.button-color{
+    background-color: green;
+}
+.button-color:hover{
+    color: red !important;
+}
+.footer-container{
+    background-color: #102040;
+}
+.footer-circle{
+    background-color: white;
+    width: 80px;
+    height: 70px;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    font-size: 50px;
+    color: rgb(13, 164, 202);
+}
+.footer-circle:hover{
+    background-color:rgb(65, 69, 73);
+}
+
+.p-text{
+        text-align: justify;
+        text-justify: inter-word;
+}
+#pic_gallery{
+    width: 90px;
+    height: 90px;
+}
+
+.nav-item{
+  color: white;
+}
